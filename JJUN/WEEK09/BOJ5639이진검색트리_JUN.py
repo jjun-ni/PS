@@ -1,7 +1,5 @@
 import sys
-
 sys.setrecursionlimit(10 ** 9)
-
 input = sys.stdin.readline
 
 binary_search_tree = []
@@ -20,7 +18,6 @@ def post_order_print(left, right):
         post_order_print(left + 1, middle - 1)
         post_order_print(middle, right)
         print(binary_search_tree[left])
-
 
 while True:
     try:
