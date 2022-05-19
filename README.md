@@ -37,8 +37,8 @@ TIN
 
 ## 📆일정표
 |-|1|2|3|4|5|6|
-|---|---|---|---|---|---|---|
-|12주차(2022.05.14-2022.05.16)|-|-|-|-|[크게만들기](https://www.acmicpc.net/problem/2812)|[줄 세우기](https://www.acmicpc.net/problem/2252)|
-
+|:---:|:---:|:---:|:---:|:---:|:---:|:---:|
+|12주차<br/>(2022.05.14-2022.05.16)|-|-|-|-|[크게만들기](https://www.acmicpc.net/problem/2812)|[줄 세우기](https://www.acmicpc.net/problem/2252)|
+|13주차<br/>(2022.05.17-2022.05.23)|[페그 솔리테어](https://www.acmicpc.net/problem/9207)|[내리막길](https://www.acmicpc.net/problem/1520)|[주사위 굴리기](https://www.acmicpc.net/problem/14499)|[저울](https://www.acmicpc.net/problem/10159)|[컬러볼](https://www.acmicpc.net/problem/10800)|[후위 표기식](https://www.acmicpc.net/problem/1918)|
 
 
