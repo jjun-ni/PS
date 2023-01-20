@@ -2,16 +2,28 @@ import sys
 
 input = sys.stdin.readline
 
-t = int(input())
+n = int(input())
 
-for _ in range(t):
-    n = int(input())
-    price = list(map(int, input().split()))
-    gain = 0
-    max_price = 0
-    for i in reversed(range(n)):
-        if price[i] < max_price:
-            gain += max_price - price[i]
+top = list(map(int, input().split()))
+
+stack = []
+
+res = [0]
+
+stack.append((top[0],1))
+
+for i in range(1,n):
+    receive = 0
+    while stack:
+        height, idx = stack.pop()
+        if height < top[i]:
+            continue
         else:
-            max_price = price[i]
-    print(gain)
+            receive = idx
+            stack.append((height, idx))
+            break
+    res.append(receive)
+    stack.append((top[i], i+1))
+
+for i in res:
+    print(i, end=" ")
